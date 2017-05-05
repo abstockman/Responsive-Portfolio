@@ -275,6 +275,10 @@ nav ul a:hover {
   .container {
     margin: 0 20px;
   }
+  .portfolio-image {
+    float: none!important;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -296,6 +300,12 @@ nav ul a:hover {
   .icons img {
     max-width: 10%;
     padding-top: 20px;
+  }
+  .portfolio-image {
+    float: left;
+    width: 40%;
+    display: inline-block;
+    padding-right: 40px;
   }
 }
 
@@ -322,5 +332,10 @@ nav ul a:hover {
   .icons img {
     max-width: 15%;
     padding-top: 20px;
+  }
+  .portfolio-image {
+    width: 100%;
+    display: block;
+    padding-right: 0px;
   }
 }
