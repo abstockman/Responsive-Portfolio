@@ -1,0 +1,256 @@
+
+
+/*Main*/
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url('../images/old_moon.png')
+
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #666666;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+ /*NAV*/
+
+nav {
+  background: white;
+  width: 100%;
+  border-bottom: 4px solid #666666;
+  /*position changed the vertical alignment of the brandlogo*/
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+nav img {
+  max-height: 50px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.brandlogo {
+  display: inline-block;
+}
+
+.brandlogo a {
+  display: inline-block;
+  background-color: #666666;
+  color: #FFF;
+  padding: 20px 35px;
+  font-size: 1.50em;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+  margin-top: 8px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #F3F3F3;
+  color: #666666;
+}
+
+nav li:last-child a {
+  border-right: none;
+}
+
+/*MAIN ABOUT PAGE*/
+
+.main {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.bigbox {
+  background: #fff;
+  width: 60%;
+  padding: 30px;
+  float: left;
+  margin-bottom: 90px;
+}
+
+.bigbox h1 {
+  font-size: 1.50em;
+  color: #666666;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #666666;
+}
+
+.bigbox p {
+  padding-top: 20px;
+}
+
+.bigbox p img {
+  max-width: 30%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+/*PORTFOLIO*/
+
+.portfolio-image {
+  width: 45%;
+  background: yellow;
+  height: 200px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.portfolio-image p {
+    background: rgba(102, 102, 102, .9);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+  }
+
+#orlando {
+  float: left;
+  background: url(../images/orlandox3.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#greenday {
+  float: left;
+  background: url(../images/greendaycafe.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#hoot {
+  float: left;
+  background: url(../images/hoot.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#brightidea {
+  float: right;
+  background: url(../images/brightidea.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#boldsoul {
+  float: right;
+  background: url(../images/boldsoul.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#randomlogo {
+  float: right;
+  background: url(../images/96project.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.row2, .row3 {
+  clear: both;
+}
+
+
+
+/*CONNECTBOX*/
+
+.connectbox {
+    background: #fff;
+    width: 20%;
+    padding: 30px;
+    float: right;
+}
+
+.connectbox h1 {
+  font-size: 1.50em;
+  color: #666666;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #666666;
+}
+
+.icons img {
+  max-width: 60px;
+  padding-top: 20px;
+}
+
+/*CONTACT*/
+
+label {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 8px;
+}
+
+input {
+  display: block;
+  font-size: 1.25em;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #666;
+
+}
+
+textarea {
+  display: block;
+  padding: 5px;
+  font-size: 1.25em;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 200px;
+  border: 1px solid #666;
+}
+
+input.submit {
+  background: #666;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 1.25em;
+  width: 25%;
+}
+
+/*FOOTER*/
+
+footer {
+  background: #666666;
+  width: 100%;
+  padding: 20px;
+  border-top: 4px solid #fff;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+nav ul a:hover {
+  color: #007AB9;
+}
